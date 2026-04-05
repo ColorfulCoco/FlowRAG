@@ -1,0 +1,16 @@
+# FlowRAG core dependencies
+openai>=1.0.0
+numpy>=1.21.0
+faiss-cpu>=1.7.0
+rank-bm25>=0.2.2
+jieba>=0.42.1
+tiktoken>=0.5.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+httpx>=0.24.0
+
+# Evaluation (optional: pip install -e ".[eval]")
+# ragas>=0.1.0
+# langchain-openai>=0.1.0
+# datasets>=2.14.0
+# pandas>=2.0.0
