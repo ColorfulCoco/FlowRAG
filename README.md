@@ -47,14 +47,6 @@ Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by gr
                      └─────────────────────────────────────────┘
 ```
 
-## Key Features
-
-- **Mermaid-mediated KG construction**: LLM generates Mermaid flowcharts as an intermediate representation, then parsed into a knowledge graph — improves structural fidelity over direct entity extraction.
-- **Residual structural embeddings**: Node embeddings are enriched with multi-hop neighbor aggregation (residual fusion), capturing topological context.
-- **Graph-guided multi-hop reasoning**: Starting from anchor nodes, an LLM agent iteratively explores the graph, collecting knowledge along causal chains.
-- **Hybrid retrieval with token budget**: After graph exploration, remaining token budget is filled via keyword + vector retrieval (RRF fusion).
-- **Modular architecture**: Clean, extensible pipeline with well-defined stages.
-
 ## Quick Start
 
 ### 1. Prerequisites
