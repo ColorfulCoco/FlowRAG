@@ -1,6 +1,6 @@
 # FlowRAG
 
-**Flow-Logic Aware Retrieval-Augmented Generation for Industrial SOP Documents**
+**FlowRAG: Control-Flow-Guided Retrieval-Augmented Generation for Service Operating Procedures**
 
 FlowRAG is a hybrid RAG system designed for industrial Standard Operating Procedure (SOP) documents that interleave **flow logic** (causality, steps, decision branches) with **declarative knowledge** (parameters, specifications, definitions). Unlike vanilla vector-based RAG, FlowRAG builds a knowledge graph from procedural text, performs graph-guided multi-hop reasoning, and supplements results with keyword/vector retrieval under a fixed context token budget.
 
@@ -141,7 +141,7 @@ If you use FlowRAG in your research, please cite:
 
 ```bibtex
 @article{flowrag2025,
-  title={FlowRAG: Flow-Logic Aware Retrieval-Augmented Generation},
+  title={FlowRAG: Control-Flow-Guided Retrieval-Augmented Generation for Service Operating Procedures},
   author={...},
   year={2025}
 }
